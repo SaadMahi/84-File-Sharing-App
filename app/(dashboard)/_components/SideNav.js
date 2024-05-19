@@ -38,7 +38,7 @@ const SideNav = ({ setShowSideNav }) => {
   }, [pathname]);
 
   return (
-    <aside className="h-full border-r shadow-sm">
+    <aside className="h-full border-r bg-white shadow-sm dark:bg-slate-800">
       <Link
         href="/"
         className="flex items-center gap-2 border-b  p-5 text-primary"

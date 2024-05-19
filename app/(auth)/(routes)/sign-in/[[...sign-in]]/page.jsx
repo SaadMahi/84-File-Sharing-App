@@ -1,6 +1,6 @@
-import { SignIn } from "@clerk/nextjs";
-import Image from "next/image";
-import Link from "next/link";
+import { SignIn } from '@clerk/nextjs';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
   return (
@@ -20,8 +20,10 @@ export default function Page() {
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              nam dolorum aliquam, quibusdam aperiam voluptatum.
+              Your secure and user-friendly platform for uploading, saving, and
+              sharing files effortlessly. Experience seamless file management
+              with our intuitive interface, designed to keep your files
+              accessible and organized.
             </p>
           </div>
         </section>
@@ -42,8 +44,10 @@ export default function Page() {
               </h1>
 
               <p className="mt-4 leading-relaxed text-gray-500">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi nam dolorum aliquam, quibusdam aperiam voluptatum.
+                Your secure and user-friendly platform for uploading, saving,
+                and sharing files effortlessly. Experience seamless file
+                management with our intuitive interface, designed to keep your
+                files accessible and organized.
               </p>
             </div>
 

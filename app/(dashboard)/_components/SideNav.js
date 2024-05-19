@@ -39,10 +39,13 @@ const SideNav = ({ setShowSideNav }) => {
 
   return (
     <aside className="h-full border-r shadow-sm">
-      <div className="flex items-center gap-2 border-b  p-5 text-primary">
+      <Link
+        href="/"
+        className="flex items-center gap-2 border-b  p-5 text-primary"
+      >
         <Image src="/logo.svg" width={35} height={35} alt="logo" />
         <span className="font-extrabold">File-Share</span>
-      </div>
+      </Link>
       <div className="float-left flex w-full flex-col">
         {menuList.map((item, index) => (
           <Link href={item.path}>

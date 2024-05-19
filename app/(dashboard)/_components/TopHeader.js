@@ -2,6 +2,7 @@ import { UserButton } from '@clerk/nextjs';
 import { AlignJustify } from 'lucide-react';
 import Image from 'next/image';
 import DarkModeToggle from '../../_components/DarkModeToggle';
+import Link from 'next/link';
 
 const TopHeader = ({ setShowSideNav }) => {
   return (
@@ -11,10 +12,10 @@ const TopHeader = ({ setShowSideNav }) => {
         className="cursor-pointer md:hidden"
       />
       <DarkModeToggle />
-      <div className="flex items-center gap-2 text-primary md:hidden">
+      <Link href="/" className="flex items-center gap-2 text-primary md:hidden">
         <Image src="/logo.svg" height={28} width={28} alt="logo" />
         <span className="font-extrabold">File-Share</span>
-      </div>
+      </Link>
       <UserButton />
     </div>
   );

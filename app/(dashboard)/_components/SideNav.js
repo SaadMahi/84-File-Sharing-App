@@ -48,9 +48,8 @@ const SideNav = ({ setShowSideNav }) => {
       </Link>
       <div className="float-left flex w-full flex-col">
         {menuList.map((item, index) => (
-          <Link href={item.path}>
+          <Link href={item.path} key={item.id}>
             <button
-              key={item.id}
               onClick={() => {
                 setActiveIndex(index);
                 setShowSideNav(false);

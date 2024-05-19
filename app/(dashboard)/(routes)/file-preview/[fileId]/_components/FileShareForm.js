@@ -66,7 +66,7 @@ const FileShareForm = ({
         <button
           onClick={handleCopy}
           type="button"
-          className="absolute bottom-2 right-5 text-gray-500 active:scale-95"
+          className="absolute bottom-2 right-5 bg-white text-gray-500 active:scale-95"
         >
           <Copy className="text-gray-500" />
         </button>

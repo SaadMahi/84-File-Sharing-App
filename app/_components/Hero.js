@@ -25,12 +25,9 @@ const Hero = () => {
               Get Started
             </Link>
 
-            <a
-              className="block w-full rounded px-12 py-3 text-sm font-medium text-primary shadow hover:text-primary focus:outline-none focus:ring active:text-primary sm:w-auto dark:bg-white"
-              href="#"
-            >
+            <p className="w-full rounded px-12 py-3 text-sm font-medium text-primary shadow hover:text-primary focus:outline-none focus:ring active:text-primary dark:bg-white sm:w-auto">
               Learn More
-            </a>
+            </p>
           </div>
         </div>
       </div>
